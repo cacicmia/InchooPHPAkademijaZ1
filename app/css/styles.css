@@ -1,0 +1,28 @@
+#pageH, #pageF {
+    background-color: #666;
+    margin: 0 auto;
+    text-align: center;
+}
+#menu ul li{
+    display:inline;
+    padding-right: 10px;
+}
+#content{
+
+    float: left;
+    width: 70%;
+    background-color: #EEE;
+    padding: 50px 0;
+}
+#sidebar{
+    float: left;
+    width:30%;
+    background-color: #EE2;
+    padding: 50px 0;
+}
+.clearfix:after{
+    content: " ";
+    display: block;
+    clear: both;
+    
+}
