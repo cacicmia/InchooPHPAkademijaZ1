@@ -20,9 +20,26 @@
 </nav>
 <main class="text-center">
     <h2>Zadaci</h2>
-    <p class="cell">en</p>
-    <p class="cell">en</p>
-    <p class="cell">en</p>
+    <p class="cell"><?php $x="Gdje";
+    $y="su";
+    $z="razmaci?";
+        echo "{$x} " ,$y ." ". $z;?></p>
+    <p class="cell"><?php
+        $myresource= print ("tu sam");
+        echo $myresource;
+        ?></p>
+    <p class="cell"><?php $x= 4/3;
+    $y= 1;
+    if ($x>$y) {
+        echo $x . " ";
+        var_dump($x);
+        echo "<hr />";
+    } else {
+        echo $y . " ";
+        var_dump($y);
+        echo "<hr />";
+    }
+        ?></p>
 </main>
 </body>
 </html>
